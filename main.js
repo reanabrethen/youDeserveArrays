@@ -8,7 +8,7 @@ function getFirstItemFrom(list){
 
 
 function getLastItemFrom(list){
-  return (list[list.length -1]);
+  return list[list.length -1]
 }
 
 
@@ -28,6 +28,7 @@ function isLongList(arr){
     return false
   }
 }
+// return arr.length >= 10   --> another way to write out code w/less lines of code
 
 
 function firstItemIsNumber(list){
@@ -40,12 +41,9 @@ function firstItemIsNumber(list){
 
 
 function secondCharOfThirdString(arr){
-  if(typeof arr[2][1] === "string"){
     return arr[2][1]
-    }else{
-    return false
   }
-}
+
  /********************************************
  * CODE DOWN HERE IS FOR INTERNAL USE ONLY. *
  *           PLEASE DON'T TOUCH!            *
